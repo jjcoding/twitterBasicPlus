@@ -1,0 +1,61 @@
+LOAD DATA
+LOCAL INFILE "data/users.txt"
+REPLACE INTO TABLE users
+FIELDS TERMINATED BY '|'
+(userID, name, email);
+
+LOAD DATA
+LOCAL INFILE "data/tweets.txt"
+REPLACE INTO TABLE tweets
+FIELDS TERMINATED BY '|'
+(tweetID, tweet, time_stamp, userID);
+
+LOAD DATA
+LOCAL INFILE "data/messages.txt"
+REPLACE INTO TABLE messages
+FIELDS TERMINATED BY '|'
+(messageID, text, time_stamp, senderID, receiverID);
+
+/*
+LOAD DATA
+LOCAL INFILE "data/send.txt"
+REPLACE INTO TABLE send
+FIELDS TERMINATED BY '|'
+(messageID, senderID);
+
+LOAD DATA
+LOCAL INFILE "data/receive.txt"
+REPLACE INTO TABLE receive
+FIELDS TERMINATED BY '|'
+(messageID, receiverID);
+
+LOAD DATA
+LOCAL INFILE "data/posts.txt"
+REPLACE INTO TABLE posts
+FIELDS TERMINATED BY '|'
+(tweetID, userID);
+*/
+
+LOAD DATA
+LOCAL INFILE "data/retweet.txt"
+REPLACE INTO TABLE retweet
+FIELDS TERMINATED BY '|'
+(tweetID, userID);
+
+LOAD DATA
+LOCAL INFILE "data/likes.txt"
+REPLACE INTO TABLE likes
+FIELDS TERMINATED BY '|'
+(tweetID, userID);
+
+LOAD DATA
+LOCAL INFILE "data/reply.txt"
+REPLACE INTO TABLE reply
+FIELDS TERMINATED BY '|'
+(commentID, beCommentedID);
+
+LOAD DATA
+LOCAL INFILE "data/follows.txt"
+REPLACE INTO TABLE follows
+FIELDS TERMINATED BY '|'
+(followerID, leaderID);

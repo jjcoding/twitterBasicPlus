@@ -1,0 +1,14 @@
+james_zzl|James Zhou|jameszlzhou@uchicago.edu|8888
+gwashington|George Washington|gwash@georgetown.edu|8888
+jsmith|John Smith|jsmith@northwestern.edu|8888
+jalba|Jessica Alba|jalba@uchicago.edu|8888
+TheRock|Dwayne Johnson|djohnson@uchicago.edu|8888
+John_A|John Adams|jadams@columbia.edu|8888
+BarackO|Barack Obama|bOba@harvard.edu|8888
+GWBush|George W. Bush|gwb@yale.edu|8888
+BillC|Bill Clinton|bClinton@georgetown.edu|8888
+GHWB|George H. W. Bush|ghwb@princeton.edu|8888
+WWil|Woodrow Wilson|ww@princeton.edu|8888
+Goldman|Goldman Sachs|gs@uchicago.edu|8888
+JCitadel|James Citadel|gc@uchicago.edu|8888
+gigi|Gigi Leung|gg@purdue.edu|8888
